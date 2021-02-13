@@ -89,6 +89,6 @@
   "optionalDependencies": {
     "vue":"^2.0.0",
     "webpack":"^4.0.0",
-    "eslint":"^5.0.0"
+    "eslint":"^6.5.1"
   }
 }
