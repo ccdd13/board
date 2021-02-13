@@ -38,6 +38,7 @@ jobs:
 
       - name: build...
         run: |
+          rm -fv package-lock.json
           yarn install
           yarn run build
           yarn audit
