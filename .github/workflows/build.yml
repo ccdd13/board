@@ -36,11 +36,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      - name: no package-lock.json
+      - name: build...
         run: |
-          rm -fv package-lock.json
-          npm i -g npm@latest
-          npm i -g yarn@latest
           yarn install
           yarn run build
           yarn audit
