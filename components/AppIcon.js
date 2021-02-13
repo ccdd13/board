@@ -18,8 +18,8 @@ export default {
       default: ''
     }
   },
-  render(h, { props }) {
-    let icon = icons[props.name]
+  render (h, { props }) {
+    const icon = icons[props.name]
     if (!icon) {
       console.warn(props.name, props.type, ' icon not found')
       return
