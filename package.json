@@ -86,5 +86,9 @@
     "stylus-loader": "^3.0.2",
     "install-peers": "^1.0.3"
   },
-  "optionalDependencies": {}
+  "optionalDependencies": {
+    "vue":"^2.0.0",
+    "webpack":"^4.0.0",
+    "eslint":"^5.0.0"
+  }
 }
