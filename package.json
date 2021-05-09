@@ -74,7 +74,7 @@
     "babel-eslint": "^10.1.0",
     "cross-env": "^7.0.3",
     "eslint": "^6.5.1",
-    "eslint-config-prettier": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-vue": "^7.9.0",
@@ -87,8 +87,8 @@
     "stylus-loader": "^5.0.0"
   },
   "optionalDependencies": {
-    "eslint": "^7.24.0",
+    "eslint": "^7.25.0",
     "vue": "^2.0.0",
-    "webpack": "^5.35.0"
+    "webpack": "^5.36.1"
   }
 }
